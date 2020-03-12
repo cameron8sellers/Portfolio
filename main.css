@@ -1,0 +1,201 @@
+#top-sec {
+  background-image: url(https://res.cloudinary.com/drcgo7zqn/image/upload/v1583812328/IMG_0976_copy_klxcv5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 35em;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+}
+html,
+body {
+  margin: 0;
+  font-family: "Oswald";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+nav {
+  background-color: rgba(15, 140, 140, 0.2);
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  font-family: "Oswald";
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#projects-section {
+  border-bottom: 3px solid rgba(7, 64, 64, 0.6);
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  margin-bottom: 0%;
+  font-family: "Libre Baskerville", serif;
+}
+
+.project-div {
+  display: flex;
+  justify-content: center;
+}
+#about-me-section {
+  height: 10em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#about-head-div {
+  grid-row: 1/2;
+  background-color: rgba(85, 150, 142, 0.3);
+  font-family: "Libre Baskerville", serif;
+  border-radius: 110px 110px 110px 110px;
+  -moz-border-radius: 110px 110px 110px 110px;
+  -webkit-border-radius: 110px 110px 110px 110px;
+  border: 0px solid #000000;
+  margin: 2px;
+}
+#about-content {
+  grid-row: 2/3;
+  margin-top: 0%;
+  padding-right: 5%;
+  padding-left: 11%;
+  padding-bottom: 5%;
+  font-family: "Baloo Chettan 2", cursive;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#about-me {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+#skills-section {
+  overflow: hidden;
+}
+#contact-section {
+  background-color: rgba(15, 140, 140, 0.6);
+  display: flex;
+  justify-content: center;
+  font-family: "Libre Baskerville", serif;
+}
+#name-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 25%;
+}
+#sub-nameplate {
+  display: flex;
+  justify-content: center;
+}
+#skills-icons {
+  margin: 10%;
+  display: grid;
+  grid-template-rows: 2fr auto;
+  grid-template-columns: 3fr auto;
+}
+.skillcons {
+  font-size: 50px;
+  margin: 0;
+  color: #d9b72e;
+}
+
+#name-plate {
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#sub-nameplate {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#skills {
+  border-bottom: 3px solid rgba(7, 64, 64, 0.6);
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  margin-bottom: 2%;
+  font-family: "Libre Baskerville", serif;
+}
+.contact-head-div {
+  display: flex;
+  justify-content: center;
+}
+#twitt,
+#link,
+#git,
+#email {
+  font-size: 25px;
+  display: flex;
+}
+#projects {
+  display: flex;
+  justify-content: center;
+}
+.pImg {
+  width: 100px;
+
+  display: flex;
+  -webkit-box-shadow: 14px 18px 18px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 18px 18px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 18px 18px -2px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+}
+.project-title {
+  font-size: 15px;
+  margin: 5px;
+}
+.desc-p {
+  width: 80px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.title-desc {
+  margin-left: 5px;
+}
+@media (min-width: 426px) {
+  #name-div {
+    padding-top: 7%;
+  }
+  #name-plate {
+    font-size: 50px;
+  }
+  .pImg {
+    width: 170px;
+
+    display: flex;
+  }
+  .desc-p {
+    width: 80px;
+  }
+  .project-title {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1042px) {
+  #name-div {
+    padding-top: 7%;
+  }
+  .skillcons {
+    font-size: 70px;
+  }
+}
