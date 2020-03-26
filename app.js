@@ -1,8 +1,8 @@
 let url =
-  "https://docs.google.com/spreadsheets/d/1YSX_Mj8bTg1iA_tNOSbUdZWtS9-QmFpENJHveIyUYLE/edit#gid=0";
-let id = "1YSX_Mj8bTg1iA_tNOSbUdZWtS9-QmFpENJHveIyUYLE";
+  "https://docs.google.com/spreadsheets/d/1UUtUMHgcWyVz91n1LW8yT8ZlY648CoSXcM0qs-LhrAY/edit#gid=0";
+let id = "1UUtUMHgcWyVz91n1LW8yT8ZlY648CoSXcM0qs-LhrAY";
 
-let source = `https://spreadsheets.google.com/feeds/cells/1YSX_Mj8bTg1iA_tNOSbUdZWtS9-QmFpENJHveIyUYLE/1/public/full?alt=json`;
+let source = `https://spreadsheets.google.com/feeds/list/1UUtUMHgcWyVz91n1LW8yT8ZlY648CoSXcM0qs-LhrAY/od6/public/values?alt=json`;
 
 fetch(source)
   .then(response => response.json())
